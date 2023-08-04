@@ -1,0 +1,1282 @@
+[
+  {
+    "outlet": [
+      {
+        "id": "2a4ee875-842c-4686-acde-3ad5dd0dc335",
+        "location": "New York",
+        "created_at": "2023-08-04T08:58:00.132Z",
+        "updated_at": "2023-08-03T14:22:00.990Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "be2a413c-ca37-4283-b09a-c2b63a690e14",
+        "location": "London",
+        "created_at": "2023-08-04T11:02:20.872Z",
+        "updated_at": "2023-08-03T15:19:30.988Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0f860a48-b362-4409-a340-46ea50b87795",
+        "location": "Tokyo",
+        "created_at": "2023-08-03T21:46:54.388Z",
+        "updated_at": "2023-08-03T15:01:43.405Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eba1431a-3127-423e-86d5-469606fad924",
+        "location": "Sydney",
+        "created_at": "2023-08-04T08:09:48.080Z",
+        "updated_at": "2023-08-04T03:33:10.640Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "acb63542-41c8-46e0-964f-13a5f1c80b39",
+        "location": "Paris",
+        "created_at": "2023-08-03T14:32:06.058Z",
+        "updated_at": "2023-08-04T04:40:35.810Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "15430dd1-15ca-475b-b536-689fcd5d4a44",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-04T03:51:57.208Z",
+        "updated_at": "2023-08-03T21:23:03.160Z",
+        "outlet_id": "0f860a48-b362-4409-a340-46ea50b87795"
+      },
+      {
+        "id": "d4adecf2-ae6c-4c74-84d4-47cbf9cfaf5f",
+        "name": "Screwdriver",
+        "availability": true,
+        "created_at": "2023-08-03T20:19:22.182Z",
+        "updated_at": "2023-08-04T05:34:08.544Z",
+        "outlet_id": "be2a413c-ca37-4283-b09a-c2b63a690e14"
+      },
+      {
+        "id": "a935d82b-80c0-47fb-8ebc-9d9d817a8681",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-03T22:59:48.296Z",
+        "updated_at": "2023-08-04T05:53:47.239Z",
+        "outlet_id": "eba1431a-3127-423e-86d5-469606fad924"
+      },
+      {
+        "id": "90778946-787a-48c6-aed1-415f7d67e850",
+        "name": "Drill",
+        "availability": false,
+        "created_at": "2023-08-03T15:14:18.238Z",
+        "updated_at": "2023-08-03T23:01:30.367Z",
+        "outlet_id": "0f860a48-b362-4409-a340-46ea50b87795"
+      },
+      {
+        "id": "fd12646c-3938-4f3b-a73a-ecfdf5e3b9f0",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-04T02:28:11.584Z",
+        "updated_at": "2023-08-04T01:10:17.116Z",
+        "outlet_id": "eba1431a-3127-423e-86d5-469606fad924"
+      }
+    ],
+    "rental": [
+      {
+        "id": "9f7ff82c-35e5-4ac0-aeee-190682ce879b",
+        "start_date": "2023-08-04T10:56:48.117Z",
+        "end_date": "2023-08-03T15:37:16.221Z",
+        "created_at": "2023-08-03T16:25:14.027Z",
+        "updated_at": "2023-08-04T03:37:10.839Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d4adecf2-ae6c-4c74-84d4-47cbf9cfaf5f"
+      },
+      {
+        "id": "193e4ee9-317c-4c00-a30c-80c40afa36e7",
+        "start_date": "2023-08-03T20:28:11.374Z",
+        "end_date": "2023-08-04T07:14:48.052Z",
+        "created_at": "2023-08-04T11:34:48.279Z",
+        "updated_at": "2023-08-03T15:00:55.644Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d4adecf2-ae6c-4c74-84d4-47cbf9cfaf5f"
+      },
+      {
+        "id": "b737b702-61a4-455f-a355-5d1a885c9ad1",
+        "start_date": "2023-08-03T17:05:08.666Z",
+        "end_date": "2023-08-03T19:43:56.551Z",
+        "created_at": "2023-08-04T06:19:24.393Z",
+        "updated_at": "2023-08-03T19:41:15.537Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "fd12646c-3938-4f3b-a73a-ecfdf5e3b9f0"
+      },
+      {
+        "id": "76f5e64c-808f-4fa4-82c6-54f96dba0606",
+        "start_date": "2023-08-03T22:20:30.310Z",
+        "end_date": "2023-08-03T19:05:40.532Z",
+        "created_at": "2023-08-03T23:41:23.717Z",
+        "updated_at": "2023-08-04T02:44:30.029Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "15430dd1-15ca-475b-b536-689fcd5d4a44"
+      },
+      {
+        "id": "99dd58f2-136d-4e8d-a2f7-cef0a320a51a",
+        "start_date": "2023-08-04T09:55:30.608Z",
+        "end_date": "2023-08-03T23:44:54.703Z",
+        "created_at": "2023-08-03T14:19:56.331Z",
+        "updated_at": "2023-08-03T20:30:45.902Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d4adecf2-ae6c-4c74-84d4-47cbf9cfaf5f"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "4964838b-5f0c-40fc-ac45-e3199603f514",
+        "location": "New York",
+        "created_at": "2023-08-04T09:47:57.297Z",
+        "updated_at": "2023-08-04T00:43:34.004Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "13ce654f-5fab-4f0a-9a80-5358b348b8a9",
+        "location": "London",
+        "created_at": "2023-08-03T17:47:41.920Z",
+        "updated_at": "2023-08-04T03:27:46.061Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "afd2e0ce-d547-4882-b2cc-fd18bc7ce0d7",
+        "location": "Tokyo",
+        "created_at": "2023-08-04T10:19:05.487Z",
+        "updated_at": "2023-08-03T15:58:54.287Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f99aa856-e094-4c5c-bc0a-5a9c3fb3a1dd",
+        "location": "Sydney",
+        "created_at": "2023-08-04T07:56:47.819Z",
+        "updated_at": "2023-08-03T18:44:09.836Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb2c70fb-bc79-47e2-8b16-4790200b2174",
+        "location": "Paris",
+        "created_at": "2023-08-03T17:40:22.322Z",
+        "updated_at": "2023-08-03T20:24:58.713Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "e4b2a691-6fd2-4efb-a7b2-3a7c485cde8b",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-03T15:38:03.990Z",
+        "updated_at": "2023-08-03T23:52:45.020Z",
+        "outlet_id": "afd2e0ce-d547-4882-b2cc-fd18bc7ce0d7"
+      },
+      {
+        "id": "062983d8-6e15-49b0-aa8d-5fb825e01ba2",
+        "name": "Screwdriver",
+        "availability": false,
+        "created_at": "2023-08-03T18:13:24.046Z",
+        "updated_at": "2023-08-04T11:19:08.694Z",
+        "outlet_id": "13ce654f-5fab-4f0a-9a80-5358b348b8a9"
+      },
+      {
+        "id": "2f9425ef-8910-4706-9d9a-fe6d796cca91",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-04T12:48:11.744Z",
+        "updated_at": "2023-08-04T07:18:37.803Z",
+        "outlet_id": "fb2c70fb-bc79-47e2-8b16-4790200b2174"
+      },
+      {
+        "id": "a727b2f5-5b2a-4cfe-9c42-b06a83c0b2f2",
+        "name": "Drill",
+        "availability": false,
+        "created_at": "2023-08-03T14:37:35.893Z",
+        "updated_at": "2023-08-03T13:05:32.510Z",
+        "outlet_id": "13ce654f-5fab-4f0a-9a80-5358b348b8a9"
+      },
+      {
+        "id": "59eadd78-d27e-4017-a832-d7a24f23d2d7",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-03T23:56:08.499Z",
+        "updated_at": "2023-08-04T00:49:03.041Z",
+        "outlet_id": "f99aa856-e094-4c5c-bc0a-5a9c3fb3a1dd"
+      }
+    ],
+    "rental": [
+      {
+        "id": "69414571-238c-4388-85f9-11cc8abc478f",
+        "start_date": "2023-08-04T06:52:55.624Z",
+        "end_date": "2023-08-03T19:42:03.071Z",
+        "created_at": "2023-08-04T00:48:01.500Z",
+        "updated_at": "2023-08-04T10:26:02.309Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e4b2a691-6fd2-4efb-a7b2-3a7c485cde8b"
+      },
+      {
+        "id": "9e3f4bcb-d1b8-4a5f-95fc-39d98646f871",
+        "start_date": "2023-08-03T20:23:55.092Z",
+        "end_date": "2023-08-03T14:00:45.469Z",
+        "created_at": "2023-08-03T13:06:33.268Z",
+        "updated_at": "2023-08-04T03:24:18.139Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2f9425ef-8910-4706-9d9a-fe6d796cca91"
+      },
+      {
+        "id": "d39159d8-8b9f-4b11-98c7-ef45bba3d2e5",
+        "start_date": "2023-08-03T20:06:32.311Z",
+        "end_date": "2023-08-04T02:40:34.748Z",
+        "created_at": "2023-08-04T10:22:44.292Z",
+        "updated_at": "2023-08-03T15:45:41.210Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e4b2a691-6fd2-4efb-a7b2-3a7c485cde8b"
+      },
+      {
+        "id": "7d717726-a4e6-42a5-bcdb-cfd0aaa4065e",
+        "start_date": "2023-08-04T06:11:25.555Z",
+        "end_date": "2023-08-03T16:04:01.147Z",
+        "created_at": "2023-08-04T09:35:00.573Z",
+        "updated_at": "2023-08-03T22:52:24.345Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "062983d8-6e15-49b0-aa8d-5fb825e01ba2"
+      },
+      {
+        "id": "fa44d03f-b917-41a7-ae13-719325ba1721",
+        "start_date": "2023-08-04T00:38:46.503Z",
+        "end_date": "2023-08-03T23:58:14.893Z",
+        "created_at": "2023-08-04T08:18:21.452Z",
+        "updated_at": "2023-08-04T02:33:36.490Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2f9425ef-8910-4706-9d9a-fe6d796cca91"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "a10c1f95-feca-47f9-a1f1-7f730e2c7044",
+        "location": "New York",
+        "created_at": "2023-08-04T08:02:27.624Z",
+        "updated_at": "2023-08-03T19:44:25.128Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "25feb034-3231-404f-9d06-afe4e6c78e71",
+        "location": "London",
+        "created_at": "2023-08-03T13:15:11.743Z",
+        "updated_at": "2023-08-03T16:39:22.010Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "73632c20-9fa8-447f-8618-22c5f7ebb631",
+        "location": "Tokyo",
+        "created_at": "2023-08-04T05:02:45.539Z",
+        "updated_at": "2023-08-03T19:18:06.623Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c512577c-c176-4755-8a21-503c517791e6",
+        "location": "Sydney",
+        "created_at": "2023-08-03T13:36:24.896Z",
+        "updated_at": "2023-08-03T18:37:57.955Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba38c181-8e20-4d69-89a3-17aae9f81fe1",
+        "location": "Paris",
+        "created_at": "2023-08-03T14:44:22.280Z",
+        "updated_at": "2023-08-04T00:54:00.342Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "b0ebd29a-24a4-4ca4-8101-9a51b4838a26",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-04T12:36:09.738Z",
+        "updated_at": "2023-08-04T12:41:25.197Z",
+        "outlet_id": "25feb034-3231-404f-9d06-afe4e6c78e71"
+      },
+      {
+        "id": "780703dd-0100-4713-ad9a-22479c1b33c3",
+        "name": "Screwdriver",
+        "availability": false,
+        "created_at": "2023-08-03T23:47:38.694Z",
+        "updated_at": "2023-08-04T07:16:41.618Z",
+        "outlet_id": "c512577c-c176-4755-8a21-503c517791e6"
+      },
+      {
+        "id": "d47a383f-bb9d-4fd6-b810-90229b7faa81",
+        "name": "Wrench",
+        "availability": true,
+        "created_at": "2023-08-04T05:01:04.207Z",
+        "updated_at": "2023-08-04T09:14:53.430Z",
+        "outlet_id": "73632c20-9fa8-447f-8618-22c5f7ebb631"
+      },
+      {
+        "id": "db84016b-6fdc-4d50-952f-e1e2c691707c",
+        "name": "Drill",
+        "availability": false,
+        "created_at": "2023-08-04T05:47:44.028Z",
+        "updated_at": "2023-08-03T21:39:44.894Z",
+        "outlet_id": "c512577c-c176-4755-8a21-503c517791e6"
+      },
+      {
+        "id": "6f80d325-ef7f-40c9-a1d4-dad4c81ac14b",
+        "name": "Pliers",
+        "availability": false,
+        "created_at": "2023-08-04T01:41:39.287Z",
+        "updated_at": "2023-08-03T18:12:46.523Z",
+        "outlet_id": "ba38c181-8e20-4d69-89a3-17aae9f81fe1"
+      }
+    ],
+    "rental": [
+      {
+        "id": "3b6525e6-ac5f-41c9-ac20-a89a2fb6056c",
+        "start_date": "2023-08-04T01:20:44.504Z",
+        "end_date": "2023-08-04T00:42:24.523Z",
+        "created_at": "2023-08-04T03:27:27.926Z",
+        "updated_at": "2023-08-04T07:59:00.126Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d47a383f-bb9d-4fd6-b810-90229b7faa81"
+      },
+      {
+        "id": "298103d9-6d87-4f4e-9865-9a972162f993",
+        "start_date": "2023-08-04T12:01:55.546Z",
+        "end_date": "2023-08-03T17:51:05.611Z",
+        "created_at": "2023-08-03T23:13:48.940Z",
+        "updated_at": "2023-08-04T05:09:15.243Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6f80d325-ef7f-40c9-a1d4-dad4c81ac14b"
+      },
+      {
+        "id": "d3bcdcb1-f276-4950-9111-318ff39c42d5",
+        "start_date": "2023-08-03T23:14:06.318Z",
+        "end_date": "2023-08-04T07:31:15.302Z",
+        "created_at": "2023-08-04T07:29:56.616Z",
+        "updated_at": "2023-08-03T18:18:04.796Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6f80d325-ef7f-40c9-a1d4-dad4c81ac14b"
+      },
+      {
+        "id": "f5fb3cd7-37d4-40a7-9246-2676d54f4feb",
+        "start_date": "2023-08-04T03:46:45.610Z",
+        "end_date": "2023-08-03T16:36:39.493Z",
+        "created_at": "2023-08-03T21:23:06.730Z",
+        "updated_at": "2023-08-04T10:05:38.296Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "b0ebd29a-24a4-4ca4-8101-9a51b4838a26"
+      },
+      {
+        "id": "dbce97ef-ad94-4b74-9134-889bcc224ecc",
+        "start_date": "2023-08-04T04:23:16.738Z",
+        "end_date": "2023-08-03T15:56:00.708Z",
+        "created_at": "2023-08-03T17:53:21.755Z",
+        "updated_at": "2023-08-04T07:00:37.576Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d47a383f-bb9d-4fd6-b810-90229b7faa81"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "da1d1156-7b5a-4a3a-a3e5-3ab8e9d8dce7",
+        "location": "New York",
+        "created_at": "2023-08-04T09:52:27.822Z",
+        "updated_at": "2023-08-03T15:10:58.559Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e3260f2-365f-4d29-aa59-df85491545d8",
+        "location": "London",
+        "created_at": "2023-08-03T13:07:41.101Z",
+        "updated_at": "2023-08-04T08:11:55.511Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d7ea1df-027b-4bb4-9428-73e41b129485",
+        "location": "Tokyo",
+        "created_at": "2023-08-04T08:42:37.739Z",
+        "updated_at": "2023-08-03T14:41:33.181Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "11f7f650-a4e0-4b85-b258-a32e5e1dc473",
+        "location": "Sydney",
+        "created_at": "2023-08-03T19:01:58.564Z",
+        "updated_at": "2023-08-04T04:26:01.117Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e677a3c2-9188-42dd-8180-e0ceedca529a",
+        "location": "Paris",
+        "created_at": "2023-08-04T03:13:50.892Z",
+        "updated_at": "2023-08-03T20:01:07.871Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "dd96ce07-f181-4740-84d0-8ffb0d93a8f4",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-03T23:48:02.796Z",
+        "updated_at": "2023-08-03T20:29:57.821Z",
+        "outlet_id": "da1d1156-7b5a-4a3a-a3e5-3ab8e9d8dce7"
+      },
+      {
+        "id": "cdb21636-a423-43d8-b904-b8e7483459f9",
+        "name": "Screwdriver",
+        "availability": true,
+        "created_at": "2023-08-03T21:32:08.059Z",
+        "updated_at": "2023-08-04T05:18:54.077Z",
+        "outlet_id": "0d7ea1df-027b-4bb4-9428-73e41b129485"
+      },
+      {
+        "id": "28712015-345e-4cb6-8663-208624a79f98",
+        "name": "Wrench",
+        "availability": true,
+        "created_at": "2023-08-03T19:27:42.148Z",
+        "updated_at": "2023-08-04T12:16:13.850Z",
+        "outlet_id": "0d7ea1df-027b-4bb4-9428-73e41b129485"
+      },
+      {
+        "id": "b5536b5d-53dd-4cdb-9c90-24935b626be2",
+        "name": "Drill",
+        "availability": true,
+        "created_at": "2023-08-04T03:42:45.151Z",
+        "updated_at": "2023-08-03T17:33:50.745Z",
+        "outlet_id": "11f7f650-a4e0-4b85-b258-a32e5e1dc473"
+      },
+      {
+        "id": "8b91d8b6-e63f-49f8-80ef-02b32e8bb151",
+        "name": "Pliers",
+        "availability": false,
+        "created_at": "2023-08-04T00:13:40.973Z",
+        "updated_at": "2023-08-04T00:15:46.322Z",
+        "outlet_id": "5e3260f2-365f-4d29-aa59-df85491545d8"
+      }
+    ],
+    "rental": [
+      {
+        "id": "5cb358c6-e726-461f-aa8c-e6324a57310d",
+        "start_date": "2023-08-03T23:15:07.807Z",
+        "end_date": "2023-08-03T23:59:41.588Z",
+        "created_at": "2023-08-03T23:15:34.581Z",
+        "updated_at": "2023-08-04T06:52:25.698Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "28712015-345e-4cb6-8663-208624a79f98"
+      },
+      {
+        "id": "a41a39b4-1153-438c-9a56-378821353cba",
+        "start_date": "2023-08-04T12:19:26.702Z",
+        "end_date": "2023-08-03T16:17:40.366Z",
+        "created_at": "2023-08-04T03:56:52.354Z",
+        "updated_at": "2023-08-04T06:03:56.512Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "cdb21636-a423-43d8-b904-b8e7483459f9"
+      },
+      {
+        "id": "73f2624a-2c4b-4049-9412-b72d3ded06b2",
+        "start_date": "2023-08-03T18:56:13.821Z",
+        "end_date": "2023-08-04T10:47:54.990Z",
+        "created_at": "2023-08-03T17:05:40.463Z",
+        "updated_at": "2023-08-03T20:46:05.069Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "28712015-345e-4cb6-8663-208624a79f98"
+      },
+      {
+        "id": "cc2e52d2-c841-4e06-a8c0-bcdc56686d3f",
+        "start_date": "2023-08-04T07:24:32.526Z",
+        "end_date": "2023-08-04T11:46:22.855Z",
+        "created_at": "2023-08-03T14:29:01.655Z",
+        "updated_at": "2023-08-03T23:37:21.775Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "b5536b5d-53dd-4cdb-9c90-24935b626be2"
+      },
+      {
+        "id": "b34d103c-4cfe-427d-90c3-85f7c5620dd9",
+        "start_date": "2023-08-04T06:01:14.817Z",
+        "end_date": "2023-08-03T23:08:03.154Z",
+        "created_at": "2023-08-04T07:00:46.572Z",
+        "updated_at": "2023-08-04T11:21:34.671Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "cdb21636-a423-43d8-b904-b8e7483459f9"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "60980cec-9f60-4d03-8dfc-3fb400e5ce53",
+        "location": "New York",
+        "created_at": "2023-08-04T03:27:47.221Z",
+        "updated_at": "2023-08-04T04:33:34.925Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3cc16e97-a112-4fc6-a7cc-1888f65dcf6b",
+        "location": "London",
+        "created_at": "2023-08-03T21:33:08.059Z",
+        "updated_at": "2023-08-04T11:00:12.631Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c230160-56c8-42fb-bb8f-147ba3255fe4",
+        "location": "Tokyo",
+        "created_at": "2023-08-03T19:36:21.464Z",
+        "updated_at": "2023-08-03T17:59:07.869Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e056859f-121f-457b-8b3f-a82fb2893b71",
+        "location": "Sydney",
+        "created_at": "2023-08-03T14:10:38.822Z",
+        "updated_at": "2023-08-04T07:36:59.953Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61401438-f3c5-4a13-9f74-7bafc631e4c3",
+        "location": "Paris",
+        "created_at": "2023-08-03T20:43:34.067Z",
+        "updated_at": "2023-08-04T07:10:44.105Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "a8df687b-7275-4c61-855f-f701d74b2343",
+        "name": "Hammer",
+        "availability": false,
+        "created_at": "2023-08-04T11:02:25.847Z",
+        "updated_at": "2023-08-04T00:58:58.162Z",
+        "outlet_id": "3cc16e97-a112-4fc6-a7cc-1888f65dcf6b"
+      },
+      {
+        "id": "6d4cb6c4-d3fb-41d7-b67e-734a406d5a60",
+        "name": "Screwdriver",
+        "availability": true,
+        "created_at": "2023-08-03T15:40:38.949Z",
+        "updated_at": "2023-08-04T07:35:14.191Z",
+        "outlet_id": "60980cec-9f60-4d03-8dfc-3fb400e5ce53"
+      },
+      {
+        "id": "88cb2fdb-d556-4f16-a30b-c548c5e125eb",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-04T08:10:14.602Z",
+        "updated_at": "2023-08-03T13:39:31.681Z",
+        "outlet_id": "3cc16e97-a112-4fc6-a7cc-1888f65dcf6b"
+      },
+      {
+        "id": "58c92bcd-733d-4960-9da7-a748704c3268",
+        "name": "Drill",
+        "availability": false,
+        "created_at": "2023-08-04T04:37:21.835Z",
+        "updated_at": "2023-08-04T09:35:29.202Z",
+        "outlet_id": "4c230160-56c8-42fb-bb8f-147ba3255fe4"
+      },
+      {
+        "id": "76875c45-81e5-43e9-9cb5-3ac61cf24577",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-03T19:27:54.876Z",
+        "updated_at": "2023-08-03T17:43:02.796Z",
+        "outlet_id": "61401438-f3c5-4a13-9f74-7bafc631e4c3"
+      }
+    ],
+    "rental": [
+      {
+        "id": "641b8d84-a3f8-45f5-baca-e55cd7028968",
+        "start_date": "2023-08-04T05:03:18.029Z",
+        "end_date": "2023-08-03T15:50:47.815Z",
+        "created_at": "2023-08-03T13:47:56.975Z",
+        "updated_at": "2023-08-04T07:24:04.013Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6d4cb6c4-d3fb-41d7-b67e-734a406d5a60"
+      },
+      {
+        "id": "78e47092-6f6f-4258-839b-2b49c5058ba4",
+        "start_date": "2023-08-03T14:46:25.358Z",
+        "end_date": "2023-08-04T01:41:33.221Z",
+        "created_at": "2023-08-04T02:01:39.268Z",
+        "updated_at": "2023-08-03T16:26:30.133Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "76875c45-81e5-43e9-9cb5-3ac61cf24577"
+      },
+      {
+        "id": "db713425-46f6-4978-8fcd-2acd943061bc",
+        "start_date": "2023-08-04T08:32:37.623Z",
+        "end_date": "2023-08-03T15:32:48.239Z",
+        "created_at": "2023-08-03T15:25:50.668Z",
+        "updated_at": "2023-08-04T08:29:53.650Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "88cb2fdb-d556-4f16-a30b-c548c5e125eb"
+      },
+      {
+        "id": "cdcf8403-fbe2-4cc8-bd27-e8dc6df3ceaa",
+        "start_date": "2023-08-03T19:28:13.039Z",
+        "end_date": "2023-08-03T16:13:23.090Z",
+        "created_at": "2023-08-04T04:47:42.916Z",
+        "updated_at": "2023-08-04T00:00:48.255Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "88cb2fdb-d556-4f16-a30b-c548c5e125eb"
+      },
+      {
+        "id": "213ee3d2-6cf9-4146-a7bc-24317c00b256",
+        "start_date": "2023-08-03T18:32:33.505Z",
+        "end_date": "2023-08-03T12:50:44.795Z",
+        "created_at": "2023-08-03T16:38:06.282Z",
+        "updated_at": "2023-08-03T20:56:13.264Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "76875c45-81e5-43e9-9cb5-3ac61cf24577"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "425fee8d-1cdb-4373-86d7-deed0c198439",
+        "location": "New York",
+        "created_at": "2023-08-04T03:36:34.289Z",
+        "updated_at": "2023-08-03T22:53:57.650Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e9e0b01d-e712-4d6c-96c6-ba2c538df3d7",
+        "location": "London",
+        "created_at": "2023-08-04T12:11:30.611Z",
+        "updated_at": "2023-08-03T20:09:36.174Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6e2d28d2-545e-4382-8f37-a7f33b64bab6",
+        "location": "Tokyo",
+        "created_at": "2023-08-04T01:31:02.184Z",
+        "updated_at": "2023-08-04T11:37:49.239Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3510016-35d8-4285-bed0-57636aee5999",
+        "location": "Paris",
+        "created_at": "2023-08-04T05:08:52.341Z",
+        "updated_at": "2023-08-04T00:49:33.770Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c256179-c53e-4faa-a8a9-6666deaab6e8",
+        "location": "Sydney",
+        "created_at": "2023-08-04T05:52:08.898Z",
+        "updated_at": "2023-08-04T08:04:31.236Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "d9a2daae-5b85-4c08-a367-66e8e86032b2",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-03T15:02:15.625Z",
+        "updated_at": "2023-08-04T01:14:54.235Z",
+        "outlet_id": "6c256179-c53e-4faa-a8a9-6666deaab6e8"
+      },
+      {
+        "id": "739b33b6-8cd9-4716-8bec-a02614106952",
+        "name": "Screwdriver",
+        "availability": false,
+        "created_at": "2023-08-03T14:27:10.331Z",
+        "updated_at": "2023-08-03T19:15:55.780Z",
+        "outlet_id": "e9e0b01d-e712-4d6c-96c6-ba2c538df3d7"
+      },
+      {
+        "id": "679f0733-421d-476a-8cdd-79858c88f256",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-03T21:16:30.074Z",
+        "updated_at": "2023-08-04T02:49:18.910Z",
+        "outlet_id": "6e2d28d2-545e-4382-8f37-a7f33b64bab6"
+      },
+      {
+        "id": "516c8e62-542c-4f0b-948a-b3bc5ce02bef",
+        "name": "Drill",
+        "availability": true,
+        "created_at": "2023-08-03T17:19:13.567Z",
+        "updated_at": "2023-08-03T18:27:56.239Z",
+        "outlet_id": "a3510016-35d8-4285-bed0-57636aee5999"
+      },
+      {
+        "id": "224eae85-cdcd-4b5b-b703-52081ae026b7",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-04T07:03:03.662Z",
+        "updated_at": "2023-08-04T04:44:10.853Z",
+        "outlet_id": "e9e0b01d-e712-4d6c-96c6-ba2c538df3d7"
+      }
+    ],
+    "rental": [
+      {
+        "id": "06a371c2-f36d-4296-bde7-615e6fc153e9",
+        "start_date": "2023-08-03T21:50:48.654Z",
+        "end_date": "2023-08-04T08:15:07.349Z",
+        "created_at": "2023-08-04T04:47:31.186Z",
+        "updated_at": "2023-08-03T13:43:35.358Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "516c8e62-542c-4f0b-948a-b3bc5ce02bef"
+      },
+      {
+        "id": "1b070a04-c0ba-4b74-9dd4-c02eca1ea21e",
+        "start_date": "2023-08-03T20:27:35.677Z",
+        "end_date": "2023-08-03T15:07:46.486Z",
+        "created_at": "2023-08-04T05:30:52.702Z",
+        "updated_at": "2023-08-04T07:32:01.270Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "739b33b6-8cd9-4716-8bec-a02614106952"
+      },
+      {
+        "id": "07e52105-3fa4-42e7-91d6-7b28827f4f47",
+        "start_date": "2023-08-04T05:59:01.440Z",
+        "end_date": "2023-08-03T18:22:47.037Z",
+        "created_at": "2023-08-04T11:51:00.631Z",
+        "updated_at": "2023-08-03T20:28:25.408Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "739b33b6-8cd9-4716-8bec-a02614106952"
+      },
+      {
+        "id": "94252d73-01b5-437c-8c5f-047f5bb45853",
+        "start_date": "2023-08-04T09:07:34.346Z",
+        "end_date": "2023-08-03T13:23:20.597Z",
+        "created_at": "2023-08-04T05:17:37.738Z",
+        "updated_at": "2023-08-03T19:51:14.461Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "739b33b6-8cd9-4716-8bec-a02614106952"
+      },
+      {
+        "id": "426eddff-e4c7-43df-afb2-33ec110cda44",
+        "start_date": "2023-08-04T00:04:52.649Z",
+        "end_date": "2023-08-04T00:52:47.498Z",
+        "created_at": "2023-08-04T02:40:18.063Z",
+        "updated_at": "2023-08-03T15:06:39.616Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "679f0733-421d-476a-8cdd-79858c88f256"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "b186f4f9-65c8-40c6-b2e4-010320406963",
+        "location": "New York",
+        "created_at": "2023-08-03T19:29:38.375Z",
+        "updated_at": "2023-08-03T15:18:07.494Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b14bb0bf-9e2a-4629-b99d-279e5ba43a05",
+        "location": "London",
+        "created_at": "2023-08-03T16:54:45.784Z",
+        "updated_at": "2023-08-03T22:35:00.520Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e1744f1-f948-4077-85b4-397f42c4a634",
+        "location": "Tokyo",
+        "created_at": "2023-08-04T11:43:33.065Z",
+        "updated_at": "2023-08-03T14:28:59.843Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aec6c28a-3922-4405-898f-4e13605d36f4",
+        "location": "Sydney",
+        "created_at": "2023-08-03T12:54:22.073Z",
+        "updated_at": "2023-08-04T00:03:29.548Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c1aed90-01e4-4b7c-b28a-2bae3226bfaf",
+        "location": "Paris",
+        "created_at": "2023-08-03T17:36:19.792Z",
+        "updated_at": "2023-08-04T00:36:04.337Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "79d44354-4eb8-4907-8669-6fa2b8f426b6",
+        "name": "Hammer",
+        "availability": false,
+        "created_at": "2023-08-04T06:40:48.906Z",
+        "updated_at": "2023-08-04T00:38:28.692Z",
+        "outlet_id": "b186f4f9-65c8-40c6-b2e4-010320406963"
+      },
+      {
+        "id": "3117a406-1316-4c48-b190-018d24989bd4",
+        "name": "Screwdriver",
+        "availability": false,
+        "created_at": "2023-08-04T06:32:23.978Z",
+        "updated_at": "2023-08-03T21:39:54.964Z",
+        "outlet_id": "b186f4f9-65c8-40c6-b2e4-010320406963"
+      },
+      {
+        "id": "fb5c441d-6fa1-4db3-bbc2-d86c1e1b12eb",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-03T14:29:14.371Z",
+        "updated_at": "2023-08-03T15:22:40.296Z",
+        "outlet_id": "4c1aed90-01e4-4b7c-b28a-2bae3226bfaf"
+      },
+      {
+        "id": "34e30e4c-5097-4a74-bad3-a513c012bcca",
+        "name": "Drill",
+        "availability": false,
+        "created_at": "2023-08-04T08:51:50.953Z",
+        "updated_at": "2023-08-03T13:01:57.475Z",
+        "outlet_id": "b186f4f9-65c8-40c6-b2e4-010320406963"
+      },
+      {
+        "id": "34e1be35-c28d-4269-94b1-824512f82006",
+        "name": "Pliers",
+        "availability": false,
+        "created_at": "2023-08-03T18:14:28.794Z",
+        "updated_at": "2023-08-03T14:49:40.208Z",
+        "outlet_id": "aec6c28a-3922-4405-898f-4e13605d36f4"
+      }
+    ],
+    "rental": [
+      {
+        "id": "eef124e0-aee2-4b63-a71f-92a15644acb7",
+        "start_date": "2023-08-03T19:52:08.689Z",
+        "end_date": "2023-08-03T20:40:38.692Z",
+        "created_at": "2023-08-03T14:13:54.641Z",
+        "updated_at": "2023-08-04T10:31:50.824Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "fb5c441d-6fa1-4db3-bbc2-d86c1e1b12eb"
+      },
+      {
+        "id": "63f82434-af27-4e88-90f5-cfb310a74a68",
+        "start_date": "2023-08-03T22:38:18.782Z",
+        "end_date": "2023-08-04T08:15:13.011Z",
+        "created_at": "2023-08-04T00:05:01.139Z",
+        "updated_at": "2023-08-03T21:39:09.666Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "fb5c441d-6fa1-4db3-bbc2-d86c1e1b12eb"
+      },
+      {
+        "id": "d9c3d374-72a4-442d-8f0d-8d6c1bc569bb",
+        "start_date": "2023-08-03T14:56:54.729Z",
+        "end_date": "2023-08-04T06:25:04.045Z",
+        "created_at": "2023-08-04T00:41:31.121Z",
+        "updated_at": "2023-08-04T02:11:27.184Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "3117a406-1316-4c48-b190-018d24989bd4"
+      },
+      {
+        "id": "4355f12f-f065-486d-812a-6d8a8469167b",
+        "start_date": "2023-08-03T14:02:21.556Z",
+        "end_date": "2023-08-04T10:47:19.806Z",
+        "created_at": "2023-08-04T00:06:20.491Z",
+        "updated_at": "2023-08-04T04:36:23.403Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "34e30e4c-5097-4a74-bad3-a513c012bcca"
+      },
+      {
+        "id": "beb4e9d4-60e7-420f-9ac4-05a11c351a3a",
+        "start_date": "2023-08-03T16:12:42.557Z",
+        "end_date": "2023-08-04T01:49:54.562Z",
+        "created_at": "2023-08-03T18:21:11.208Z",
+        "updated_at": "2023-08-03T15:03:22.280Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "34e30e4c-5097-4a74-bad3-a513c012bcca"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "481113ad-9a37-4a99-aaab-080facbadba1",
+        "location": "New York",
+        "created_at": "2023-08-03T20:07:07.417Z",
+        "updated_at": "2023-08-04T02:57:52.096Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3d9696b1-48e9-44be-b4ce-90fead8bad79",
+        "location": "London",
+        "created_at": "2023-08-04T01:02:59.475Z",
+        "updated_at": "2023-08-03T16:46:13.181Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9b52cc9b-b1b8-43b5-88b6-259805cd0e3f",
+        "location": "Tokyo",
+        "created_at": "2023-08-03T13:10:35.873Z",
+        "updated_at": "2023-08-03T19:45:37.128Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0ff96bb3-683d-4a26-8d5b-fd736004462d",
+        "location": "Paris",
+        "created_at": "2023-08-03T15:32:05.507Z",
+        "updated_at": "2023-08-03T22:29:35.247Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "838044d6-2353-4333-9756-55818d9f33bf",
+        "location": "Sydney",
+        "created_at": "2023-08-04T12:42:40.978Z",
+        "updated_at": "2023-08-04T00:13:27.724Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "215b82c2-e826-4a46-8281-c138d22f011c",
+        "name": "Hammer",
+        "availability": false,
+        "created_at": "2023-08-03T17:46:19.428Z",
+        "updated_at": "2023-08-04T09:04:42.930Z",
+        "outlet_id": "838044d6-2353-4333-9756-55818d9f33bf"
+      },
+      {
+        "id": "c66cc8a3-10a2-4f44-a6d0-e1d3ace67eed",
+        "name": "Screwdriver",
+        "availability": true,
+        "created_at": "2023-08-03T21:22:21.249Z",
+        "updated_at": "2023-08-04T02:12:23.128Z",
+        "outlet_id": "3d9696b1-48e9-44be-b4ce-90fead8bad79"
+      },
+      {
+        "id": "d70d186f-18b6-4868-8977-3a139e86a5df",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-03T22:43:32.629Z",
+        "updated_at": "2023-08-04T00:42:37.933Z",
+        "outlet_id": "838044d6-2353-4333-9756-55818d9f33bf"
+      },
+      {
+        "id": "591cab19-c250-464d-b4e4-0d505df754f3",
+        "name": "Drill",
+        "availability": true,
+        "created_at": "2023-08-04T06:14:40.082Z",
+        "updated_at": "2023-08-04T09:24:02.641Z",
+        "outlet_id": "3d9696b1-48e9-44be-b4ce-90fead8bad79"
+      },
+      {
+        "id": "323f17d6-4f63-4d59-9498-5516b5ca66b4",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-04T11:06:50.881Z",
+        "updated_at": "2023-08-04T10:30:07.922Z",
+        "outlet_id": "9b52cc9b-b1b8-43b5-88b6-259805cd0e3f"
+      }
+    ],
+    "rental": [
+      {
+        "id": "0bdda84f-2ec6-4b6d-a909-3dae844f7bbd",
+        "start_date": "2023-08-04T02:15:59.900Z",
+        "end_date": "2023-08-04T03:02:01.686Z",
+        "created_at": "2023-08-03T20:22:38.009Z",
+        "updated_at": "2023-08-04T03:31:53.339Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d70d186f-18b6-4868-8977-3a139e86a5df"
+      },
+      {
+        "id": "6d737c65-eb04-45a4-9b0d-c544ebd35f20",
+        "start_date": "2023-08-03T19:48:50.794Z",
+        "end_date": "2023-08-04T07:49:03.836Z",
+        "created_at": "2023-08-03T18:14:47.922Z",
+        "updated_at": "2023-08-04T02:06:21.489Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "591cab19-c250-464d-b4e4-0d505df754f3"
+      },
+      {
+        "id": "67bb5d37-3915-4f91-b27f-9c69458e1f4f",
+        "start_date": "2023-08-04T10:49:00.557Z",
+        "end_date": "2023-08-03T21:04:07.855Z",
+        "created_at": "2023-08-03T15:51:01.131Z",
+        "updated_at": "2023-08-04T00:02:48.979Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "215b82c2-e826-4a46-8281-c138d22f011c"
+      },
+      {
+        "id": "9d45a44a-27cc-462e-ae2d-2098e57470fa",
+        "start_date": "2023-08-03T17:34:51.584Z",
+        "end_date": "2023-08-03T21:56:06.514Z",
+        "created_at": "2023-08-04T11:25:53.756Z",
+        "updated_at": "2023-08-03T20:12:38.570Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "323f17d6-4f63-4d59-9498-5516b5ca66b4"
+      },
+      {
+        "id": "a7eeecd1-edfd-4ebc-8b63-5619bd477c12",
+        "start_date": "2023-08-03T18:45:15.389Z",
+        "end_date": "2023-08-03T14:35:25.999Z",
+        "created_at": "2023-08-04T11:46:32.568Z",
+        "updated_at": "2023-08-04T04:04:19.801Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d70d186f-18b6-4868-8977-3a139e86a5df"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "a7d42e49-3a14-4c82-bb09-a79165dfdade",
+        "location": "New York",
+        "created_at": "2023-08-03T19:17:00.779Z",
+        "updated_at": "2023-08-03T15:36:37.756Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "57b55f79-f911-4e82-94f0-bbbf1e6e8fe9",
+        "location": "London",
+        "created_at": "2023-08-03T15:01:26.863Z",
+        "updated_at": "2023-08-03T21:34:08.696Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "255a3b71-fd98-45f4-a4d8-d7aadd307a77",
+        "location": "Tokyo",
+        "created_at": "2023-08-04T11:28:59.158Z",
+        "updated_at": "2023-08-03T15:02:34.734Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c1845fbb-b5e7-4c0f-aa6a-6fa1b8613aff",
+        "location": "Paris",
+        "created_at": "2023-08-03T14:19:30.891Z",
+        "updated_at": "2023-08-04T11:29:23.960Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41bebab4-892f-4602-ad01-f00fe152ef7b",
+        "location": "Sydney",
+        "created_at": "2023-08-03T14:43:24.490Z",
+        "updated_at": "2023-08-04T06:52:41.644Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "82f4a1cf-541a-4929-8adb-e85ece5d7284",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-04T02:55:21.452Z",
+        "updated_at": "2023-08-04T06:25:59.724Z",
+        "outlet_id": "255a3b71-fd98-45f4-a4d8-d7aadd307a77"
+      },
+      {
+        "id": "a4dcf090-d4e8-4b55-b884-21aecf4d2992",
+        "name": "Screwdriver",
+        "availability": false,
+        "created_at": "2023-08-03T16:25:52.043Z",
+        "updated_at": "2023-08-03T17:02:41.689Z",
+        "outlet_id": "a7d42e49-3a14-4c82-bb09-a79165dfdade"
+      },
+      {
+        "id": "cf2528aa-da71-41e9-bd74-18d307590c2e",
+        "name": "Wrench",
+        "availability": true,
+        "created_at": "2023-08-04T07:21:54.452Z",
+        "updated_at": "2023-08-04T07:27:08.290Z",
+        "outlet_id": "57b55f79-f911-4e82-94f0-bbbf1e6e8fe9"
+      },
+      {
+        "id": "09069557-2358-4b21-bff8-afedf02de082",
+        "name": "Drill",
+        "availability": false,
+        "created_at": "2023-08-03T16:24:31.915Z",
+        "updated_at": "2023-08-03T23:26:36.995Z",
+        "outlet_id": "41bebab4-892f-4602-ad01-f00fe152ef7b"
+      },
+      {
+        "id": "f9de62d5-e23c-496d-8ec0-fa8335d1d83e",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-03T21:08:29.776Z",
+        "updated_at": "2023-08-03T16:55:38.333Z",
+        "outlet_id": "c1845fbb-b5e7-4c0f-aa6a-6fa1b8613aff"
+      }
+    ],
+    "rental": [
+      {
+        "id": "4aa7914d-aea2-4afb-a453-178b11219672",
+        "start_date": "2023-08-04T10:35:42.822Z",
+        "end_date": "2023-08-03T14:38:11.215Z",
+        "created_at": "2023-08-03T13:36:36.123Z",
+        "updated_at": "2023-08-04T02:23:55.120Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "09069557-2358-4b21-bff8-afedf02de082"
+      },
+      {
+        "id": "d9bdf1b8-e275-440e-bde7-4b83f1dbc348",
+        "start_date": "2023-08-04T01:33:34.813Z",
+        "end_date": "2023-08-04T08:45:05.787Z",
+        "created_at": "2023-08-04T00:50:29.064Z",
+        "updated_at": "2023-08-03T17:27:36.927Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "82f4a1cf-541a-4929-8adb-e85ece5d7284"
+      },
+      {
+        "id": "48c39626-6d5b-4714-b112-f898bdc035aa",
+        "start_date": "2023-08-03T17:09:58.851Z",
+        "end_date": "2023-08-03T19:59:06.202Z",
+        "created_at": "2023-08-04T06:22:44.762Z",
+        "updated_at": "2023-08-03T13:50:06.050Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "09069557-2358-4b21-bff8-afedf02de082"
+      },
+      {
+        "id": "2f935833-7d8b-4b3a-b980-0e57c0847ca0",
+        "start_date": "2023-08-03T20:37:11.105Z",
+        "end_date": "2023-08-03T17:43:29.994Z",
+        "created_at": "2023-08-04T01:37:22.707Z",
+        "updated_at": "2023-08-04T01:48:25.643Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "82f4a1cf-541a-4929-8adb-e85ece5d7284"
+      },
+      {
+        "id": "cfa5b9c7-609a-48e7-8e35-0340918c8b34",
+        "start_date": "2023-08-03T15:13:18.642Z",
+        "end_date": "2023-08-04T02:25:26.729Z",
+        "created_at": "2023-08-04T06:20:32.210Z",
+        "updated_at": "2023-08-04T04:32:14.049Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "f9de62d5-e23c-496d-8ec0-fa8335d1d83e"
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "e0c854bc-c23e-4af0-a86f-025e15a9cad5",
+        "location": "New York",
+        "created_at": "2023-08-03T19:16:43.744Z",
+        "updated_at": "2023-08-04T08:17:41.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "073c44f3-4ded-43a6-be91-fadfd0f962ba",
+        "location": "London",
+        "created_at": "2023-08-03T21:10:42.627Z",
+        "updated_at": "2023-08-03T13:58:58.202Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "924b38a3-8673-4bf3-a83c-3672589b8413",
+        "location": "Tokyo",
+        "created_at": "2023-08-03T17:53:56.382Z",
+        "updated_at": "2023-08-03T16:38:05.742Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd9fa9cf-dde8-418b-99e0-f703861acd02",
+        "location": "Sydney",
+        "created_at": "2023-08-03T19:54:59.196Z",
+        "updated_at": "2023-08-04T07:37:06.033Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90509bb6-2463-466a-8757-86dfb0aebaa9",
+        "location": "Paris",
+        "created_at": "2023-08-04T02:02:55.766Z",
+        "updated_at": "2023-08-04T01:26:44.906Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "3edeee30-c60b-43ad-9c1f-f592a606aeff",
+        "name": "Hammer",
+        "availability": true,
+        "created_at": "2023-08-04T05:30:30.728Z",
+        "updated_at": "2023-08-03T14:23:22.446Z",
+        "outlet_id": "90509bb6-2463-466a-8757-86dfb0aebaa9"
+      },
+      {
+        "id": "41cac312-fa0c-482d-9afc-8fb7facb589f",
+        "name": "Screwdriver",
+        "availability": false,
+        "created_at": "2023-08-04T04:21:40.444Z",
+        "updated_at": "2023-08-03T21:58:29.740Z",
+        "outlet_id": "924b38a3-8673-4bf3-a83c-3672589b8413"
+      },
+      {
+        "id": "cbea593c-6424-455b-b656-1ddf5513b702",
+        "name": "Wrench",
+        "availability": false,
+        "created_at": "2023-08-03T23:35:01.147Z",
+        "updated_at": "2023-08-03T23:07:20.513Z",
+        "outlet_id": "e0c854bc-c23e-4af0-a86f-025e15a9cad5"
+      },
+      {
+        "id": "9650f5bd-b04a-403f-8798-36b6eeea5727",
+        "name": "Drill",
+        "availability": true,
+        "created_at": "2023-08-04T10:20:13.780Z",
+        "updated_at": "2023-08-04T07:32:02.275Z",
+        "outlet_id": "924b38a3-8673-4bf3-a83c-3672589b8413"
+      },
+      {
+        "id": "8b8b611c-d87f-49d6-b0ed-542d7865622a",
+        "name": "Pliers",
+        "availability": true,
+        "created_at": "2023-08-04T09:14:27.190Z",
+        "updated_at": "2023-08-03T19:59:53.302Z",
+        "outlet_id": "073c44f3-4ded-43a6-be91-fadfd0f962ba"
+      }
+    ],
+    "rental": [
+      {
+        "id": "fd1dec68-6df2-4f0b-a18e-31db6f1d6b13",
+        "start_date": "2023-08-03T19:36:55.551Z",
+        "end_date": "2023-08-03T18:29:13.478Z",
+        "created_at": "2023-08-03T13:31:27.895Z",
+        "updated_at": "2023-08-04T01:24:48.957Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "9650f5bd-b04a-403f-8798-36b6eeea5727"
+      },
+      {
+        "id": "d2c8df4f-be63-4971-ac34-df074122a9cd",
+        "start_date": "2023-08-03T20:43:41.393Z",
+        "end_date": "2023-08-04T09:40:33.937Z",
+        "created_at": "2023-08-03T17:40:26.669Z",
+        "updated_at": "2023-08-04T00:22:07.566Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "cbea593c-6424-455b-b656-1ddf5513b702"
+      },
+      {
+        "id": "a26194ae-75ea-434f-bc66-2d8769dea70d",
+        "start_date": "2023-08-04T03:30:10.914Z",
+        "end_date": "2023-08-03T14:29:00.151Z",
+        "created_at": "2023-08-04T07:44:14.186Z",
+        "updated_at": "2023-08-03T17:38:43.152Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "cbea593c-6424-455b-b656-1ddf5513b702"
+      },
+      {
+        "id": "52b3bfba-63a9-47b3-9684-8a18a02e62c0",
+        "start_date": "2023-08-04T02:36:01.365Z",
+        "end_date": "2023-08-04T11:26:04.661Z",
+        "created_at": "2023-08-04T06:08:20.521Z",
+        "updated_at": "2023-08-04T08:07:39.848Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "9650f5bd-b04a-403f-8798-36b6eeea5727"
+      },
+      {
+        "id": "2654d084-1bbb-4ffd-9333-7b7159185654",
+        "start_date": "2023-08-04T02:02:46.547Z",
+        "end_date": "2023-08-03T17:02:52.887Z",
+        "created_at": "2023-08-03T21:10:08.783Z",
+        "updated_at": "2023-08-04T02:39:01.922Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "cbea593c-6424-455b-b656-1ddf5513b702"
+      }
+    ]
+  }
+]
